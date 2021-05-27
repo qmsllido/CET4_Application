@@ -5,17 +5,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.graphics.Typeface;
 
 public class MainActivity extends AppCompatActivity {
-    private Button UniCon_Btn;
+    private Button UniCon_Btn, Formula_Btn, MinGme_Btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //transition from main screen to unit conversion screen
         UniCon_Btn = findViewById(R.id.UniCon_Btn);
+        Formula_Btn = findViewById(R.id.Formula_Btn);
+        MinGme_Btn = findViewById(R.id.MinGme_Btn);
 
+        //Button Fonts
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "Gelion-Black.ttf");
+        UniCon_Btn.setTypeface(typeface);
+        Formula_Btn.setTypeface(typeface);
+        MinGme_Btn.setTypeface(typeface);
+
+        //transition from main screen to unit conversion screen
         //UniCon_Btn.setOnClickListener(new View.OnClickListener() {
         //            @Override
         //            public void onClick(View v) {
