@@ -18,12 +18,6 @@ public class MainActivity extends AppCompatActivity {
         Formula_Btn = findViewById(R.id.Formula_Btn);
         MinGme_Btn = findViewById(R.id.MinGme_Btn);
 
-        //Button Fonts
-        Typeface typeface = Typeface.createFromAsset(getAssets(), "Gelion-Black.ttf");
-        UniCon_Btn.setTypeface(typeface);
-        Formula_Btn.setTypeface(typeface);
-        MinGme_Btn.setTypeface(typeface);
-
         //transition from main screen to unit conversion screen
         //UniCon_Btn.setOnClickListener(new View.OnClickListener() {
         //            @Override
