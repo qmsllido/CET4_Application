@@ -1,0 +1,89 @@
+Index: app/src/main/res/layout/activity_minigame.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_minigame.xml	(date 1622126730684)
++++ app/src/main/res/layout/activity_minigame.xml	(date 1622126730684)
+@@ -0,0 +1,80 @@
++<?xml version="1.0" encoding="utf-8"?>
++<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="#8BFFEB3B">
++
++    <TextView
++        android:id="@+id/miniGame_txt"
++        android:layout_width="187dp"
++        android:layout_height="55dp"
++        android:text="@string/mini_games_title"
++        android:textAllCaps="true"
++        android:textColor="#009688"
++        android:textSize="30sp"
++        android:textStyle="bold"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.547"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.195"
++        tools:text="Mini Games" />
++
++    <Button
++        android:id="@+id/miniEasy_Btn"
++        android:layout_width="143dp"
++        android:layout_height="54dp"
++        android:background="@drawable/mainscrn_btn"
++        android:text="@string/mini_easy"
++        android:textAllCaps="true"
++        android:textColor="#3BDDCE"
++        android:textColorHighlight="#FFFFFF"
++        android:textSize="18sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.518"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.386"
++        tools:text="Easy" />
++
++    <Button
++        android:id="@+id/miniMid_Btn2"
++        android:layout_width="142dp"
++        android:layout_height="57dp"
++        android:background="@drawable/mainscrn_btn"
++        android:text="@string/mini_mid"
++        android:textAllCaps="true"
++        android:textColor="#3BDDCE"
++        android:textColorHighlight="#FFFFFF"
++        android:textSize="18sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.52"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.519"
++        tools:text="Medium" />
++
++    <Button
++        android:id="@+id/miniHrd_Btn"
++        android:layout_width="141dp"
++        android:layout_height="58dp"
++        android:background="@drawable/mainscrn_btn"
++        android:text="@string/mini_hrd"
++        android:textAllCaps="true"
++        android:textColor="#3BDDCE"
++        android:textColorHighlight="#FFFFFF"
++        android:textSize="18sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.514"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.66"
++        tools:text="Hard" />
++
++</android.support.constraint.ConstraintLayout>
+\ No newline at end of file
