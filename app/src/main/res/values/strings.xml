@@ -5,4 +5,8 @@
     <string name="formulas">Formulas</string>
     <string name="mini_games">Mini Games</string>
     <string name="unit_conversion_screen">Unit Conversion Screen</string>
+    <string name="mini_games_title">MINI GAMES</string>
+    <string name="mini_easy">EASY</string>
+    <string name="mini_mid">MEDIUM</string>
+    <string name="mini_hrd">HARD</string>
 </resources>
