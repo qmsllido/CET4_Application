@@ -1,16 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background2"
     tools:context=".MainActivity">
 
+    <Spinner
+        android:id="@+id/measurement_Spnr1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_layout1"
+        android:fontFamily="@font/gelion_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <Spinner
+        android:id="@+id/unit_Spnr2"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_layout1"
+        android:fontFamily="@font/gelion_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/measurement_Spnr1"
+        app:layout_constraintTop_toBottomOf="@+id/measurement_Spnr1"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Spinner
+        android:id="@+id/unit_Spnr3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_layout1"
+        android:fontFamily="@font/gelion_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/unit_Spnr2"
+        app:layout_constraintStart_toStartOf="@+id/unit_Spnr2"
+        app:layout_constraintTop_toBottomOf="@+id/unit_Spnr2"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <EditText
+        android:id="@+id/num_txt1"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_layout"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/UC_hint1"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:fontFamily="@font/gelion_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/measurement_Spnr1"
+        app:layout_constraintTop_toBottomOf="@+id/measurement_Spnr1"
+        app:layout_constraintVertical_bias="0.067"
+        android:autofillHints="100" />
+
+    <EditText
+        android:id="@+id/num_txt2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_layout"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/UC_hint2"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:fontFamily="@font/gelion_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/num_txt1"
+        app:layout_constraintStart_toStartOf="@+id/num_txt1"
+        app:layout_constraintTop_toBottomOf="@+id/measurement_Spnr1"
+        app:layout_constraintVertical_bias="0.3"
+        android:autofillHints="1" />
+
     <TextView
-        android:id="@+id/UniCon_txt"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="clip_horizontal"
-        android:text="@string/unit_conversion_screen" />
+        android:text="@string/formula"
+        android:fontFamily="@font/gelion_medium"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/ic_formula"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        android:drawableRight="@drawable/ic_formula" />
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

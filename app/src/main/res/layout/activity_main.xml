@@ -33,7 +33,7 @@
         android:layout_marginRight="10dp"
         android:background="@drawable/buttons_layout1"
         android:fontFamily="@font/gelion_black"
-        android:text="@string/unit_conversion"
+        android:text="@string/unit_converter"
         android:textAllCaps="false"
         android:textColor="#6BE8E4"
         android:textSize="20sp"

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CET Application</string>
     <string name="logo">Logo</string>
-    <string name="unit_conversion">Unit Conversion</string>
+    <string name="unit_converter">Unit Converter</string>
     <string name="formulas">Formulas</string>
     <string name="mini_games">Mini Games</string>
     <string name="unit_conversion_screen">Unit Conversion Screen</string>
@@ -9,4 +9,7 @@
     <string name="mini_easy">EASY</string>
     <string name="mini_mid">MEDIUM</string>
     <string name="mini_hrd">HARD</string>
+    <string name="formula">Formula</string>
+    <string name="UC_hint2">100</string>
+    <string name="UC_hint1">1</string>
 </resources>
