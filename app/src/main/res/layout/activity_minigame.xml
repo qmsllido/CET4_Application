@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8BFFEB3B">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background2">
 
     <TextView
         android:id="@+id/miniGame_txt"
@@ -27,7 +31,7 @@
         android:id="@+id/miniEasy_Btn"
         android:layout_width="143dp"
         android:layout_height="54dp"
-        android:background="@drawable/buttons"
+        android:background="@drawable/buttons_layout1"
         android:text="@string/mini_easy"
         android:textAllCaps="true"
         android:textColor="#3BDDCE"
@@ -45,7 +49,7 @@
         android:id="@+id/miniMid_Btn"
         android:layout_width="142dp"
         android:layout_height="57dp"
-        android:background="@drawable/buttons"
+        android:background="@drawable/buttons_layout1"
         android:text="@string/mini_mid"
         android:textAllCaps="true"
         android:textColor="#3BDDCE"
@@ -63,7 +67,7 @@
         android:id="@+id/miniHrd_Btn"
         android:layout_width="141dp"
         android:layout_height="58dp"
-        android:background="@drawable/buttons"
+        android:background="@drawable/buttons_layout1"
         android:text="@string/mini_hrd"
         android:textAllCaps="true"
         android:textColor="#3BDDCE"
