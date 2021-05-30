@@ -4,12 +4,14 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CETApplication"
-        android:fullBackupContent="true">
+        android:theme="@style/Theme.CETApplication">
+        <activity android:name=".MiniGamesActivity"/>
+        <activity android:name=".FormulaActivity"/>
         <activity android:name=".UnitConversionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

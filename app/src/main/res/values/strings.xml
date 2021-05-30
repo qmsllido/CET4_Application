@@ -3,8 +3,9 @@
     <string name="logo">Logo</string>
     <string name="unit_converter">Unit Converter</string>
     <string name="formulas">Formulas</string>
+    <string name="geometry">Geometry</string>
+    <string name="trigo">Trigo</string>
     <string name="mini_games">Mini Games</string>
-    <string name="unit_conversion_screen">Unit Conversion Screen</string>
     <string name="mini_games_title">MINI GAMES</string>
     <string name="mini_easy">EASY</string>
     <string name="mini_mid">MEDIUM</string>

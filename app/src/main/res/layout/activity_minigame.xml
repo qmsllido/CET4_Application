@@ -8,7 +8,8 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    android:background="@drawable/background2">
+    android:background="@drawable/background2"
+    tools:context=".MiniGamesActivity">
 
     <TextView
         android:id="@+id/miniGame_txt"
@@ -34,7 +35,7 @@
         android:background="@drawable/buttons_layout1"
         android:text="@string/mini_easy"
         android:textAllCaps="true"
-        android:textColor="#6BE8E4"
+        android:textColor="@color/soft_cyan"
         android:textColorHighlight="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +53,7 @@
         android:background="@drawable/buttons_layout1"
         android:text="@string/mini_mid"
         android:textAllCaps="true"
-        android:textColor="#6BE8E4"
+        android:textColor="@color/soft_cyan"
         android:textColorHighlight="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,7 +71,7 @@
         android:background="@drawable/buttons_layout1"
         android:text="@string/mini_hrd"
         android:textAllCaps="true"
-        android:textColor="#6BE8E4"
+        android:textColor="@color/soft_cyan"
         android:textColorHighlight="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

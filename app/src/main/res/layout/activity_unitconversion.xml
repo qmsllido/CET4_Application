@@ -10,7 +10,7 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:background="@drawable/background2"
-    tools:context=".MainActivity">
+    tools:context=".UnitConversionActivity">
 
     <Spinner
         android:id="@+id/measurement_Spnr1"
