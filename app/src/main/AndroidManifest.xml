@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CETApplication">
+        <activity android:name=".MiniEasyGameActivity"/>
         <activity android:name=".MiniGamesActivity"/>
         <activity android:name=".FormulaActivity"/>
         <activity android:name=".UnitConversionActivity" />
