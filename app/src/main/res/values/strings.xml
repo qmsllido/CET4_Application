@@ -13,4 +13,9 @@
     <string name="formula">Formula</string>
     <string name="UC_hint2">100</string>
     <string name="UC_hint1">1</string>
+    <string name="practice_exercises">Practice Exercises!</string>
+    <string name="textview">TextView</string>
+    <string name="show_answer">SHOW ANSWER</string>
+    <string name="next_question">NEXT QUESTION</string>
+    <string name="sin_cos_tan_cot_are_respectively">Sinθ, cosθ, tanθ, cotθ are respectively:</string>
 </resources>
